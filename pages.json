@@ -1,0 +1,129 @@
+{
+  "pages": [{
+      "path": "pages/found/found",
+      "style": {
+        "navigationBarTitleText": "招领帖子",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/lost/lost",
+      "style": {
+        "navigationBarTitleText": "失物帖子",
+        "enablePullDownRefresh": true
+      }
+
+    }, {
+      "path": "pages/me/me",
+      "style": {
+        "navigationBarTitleText": "个人页面",
+        "navigationBarBackgroundColor": "#95c8e3",
+        "enablePullDownRefresh": true
+
+      }
+
+    }
+  ],
+  "tabBar": {
+    "selectedColor": "",
+    "list": [{
+        "pagePath": "pages/lost/lost",
+        "text": "寻物 ",
+        "iconPath": "./static/tabBarIcon/search.png",
+        "selectedIconPath": "./static/tabBarIcon/search-active.png"
+      },
+      {
+        "pagePath": "pages/found/found",
+        "text": "招领",
+        "iconPath": "./static/tabBarIcon/shop.png",
+        "selectedIconPath": "./static/tabBarIcon/shop-active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "./static/tabBarIcon/me.png",
+        "selectedIconPath": "./static/tabBarIcon/me-active.png"
+      }
+    ]
+  },
+  // 分包页面
+  "subPackages": [{
+    "root": "subpkg",
+    "pages": [{
+      "path": "goods_detail/goods_detail",
+      "style": {
+        "navigationBarTitleText": "帖子详情",
+        "enablePullDownRefresh": true
+      }
+    }, {
+      "path": "search/search",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "uploadGoods/uploadGoods",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "uploadSuccess/uploadSuccess",
+      "style": {
+        "navigationBarTitleText": "",
+        "enablePullDownRefresh": false
+      }
+    }, {
+      "path": "settings/settings",
+      "style": {
+        "navigationBarTitleText": "设置",
+        "navigationBarBackgroundColor": "#e1edf4",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "editProfile/editProfile",
+      "style": {
+        "navigationBarTitleText": "编辑资料",
+        "navigationBarBackgroundColor": "#e1edf4",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "edit/edit",
+      "style": {
+        "navigationBarTitleText": "",
+        "navigationBarBackgroundColor": "#e1edf4",
+        "enablePullDownRefresh": false
+      }
+
+    }, {
+      "path": "me-comments/me-comments",
+      "style": {
+        "navigationBarTitleText": "我的评论",
+        "navigationBarBackgroundColor": "#e1edf4",
+        "enablePullDownRefresh": true
+      }
+
+    }, {
+      "path": "me-posts/me-posts",
+      "style": {
+        "navigationBarTitleText": "我的帖子",
+        "navigationBarBackgroundColor": "#e1edf4",
+        "enablePullDownRefresh": false
+      }
+
+    }]
+  }],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    }
+  }
+}

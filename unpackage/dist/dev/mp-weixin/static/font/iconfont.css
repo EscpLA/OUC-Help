@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "iconfont";
+  /* Project id 3504360 */
+  src: url('@/static/font/iconfont.woff2?t=1668305028409') format('woff2'),
+    url('@/static/font/iconfont.woff?t=1668305028409') format('woff'),
+    url('@/static/font/iconfont.ttf?t=1668305028409') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-notification-filling:before {
+  content: "\e68b";
+}
+
+.icon-user-fill:before {
+  content: "\e7d5";
+}
+
+.icon-feedback-fill:before {
+  content: "\e686";
+}
+
+.icon-settings:before {
+  content: "\ea3e";
+}
+
+.icon-send:before {
+  content: "\e6f4";
+}
+
+.icon-academic-cap_brief:before {
+  content: "\e644";
+}
+
+.icon-comments:before {
+  content: "\e7cd";
+}
+
+.icon-user:before {
+  content: "\e7ae";
+}
+
+.icon-gouxuan:before {
+  content: "\e600";
+}
+
+.icon-filter:before {
+  content: "\e6f1";
+}
+
+.icon-arrow-sortdown-smal:before {
+  content: "\e877";
+}
+
+.icon-feedback:before {
+  content: "\e64d";
+}
+
+.icon-feedback-copy:before {
+  content: "\e92b";
+}
+
+.icon-comment_light:before {
+  content: "\e7e0";
+}
+
+.icon-forward:before {
+  content: "\e690";
+}
+
+.icon-emojifill:before {
+  content: "\e78d";
+}
+
+.icon-image-fill:before {
+  content: "\e860";
+}
+
+.icon-delete:before {
+  content: "\e810";
+}
+
+.icon-qita:before {
+  content: "\e61a";
+}
+
+.icon-computer:before {
+  content: "\e6b3";
+}
+
+.icon-shubao:before {
+  content: "\e605";
+}
+
+.icon-ic_credentials:before {
+  content: "\e6b4";
+}
+
+.icon-notebook-2:before {
+  content: "\e671";
+}
+
+.icon-girlbag:before {
+  content: "\e621";
+}
+
+.icon-message:before {
+  content: "\e628";
+}
+
+.icon-message-fill:before {
+  content: "\e84a";
+}
+
+.icon-exe-curriculum-center-primary:before {
+  content: "\e929";
+}
+
+.icon-message1:before {
+  content: "\e651";
+}
+
+.icon-message-fill-copy:before {
+  content: "\e92a";
+}
+
+.icon-edit:before {
+  content: "\e7e1";
+}

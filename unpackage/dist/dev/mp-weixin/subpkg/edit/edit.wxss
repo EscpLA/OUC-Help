@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container {
+  width: 704rpx;
+  margin: 0 auto;
+}
+.container input.edit {
+  font-size: 32rpx;
+  height: 88rpx;
+  background-color: #e1edf4;
+  border-radius: 20rpx;
+  margin-top: 50rpx;
+  padding-left: 32rpx;
+}
+.container .tips {
+  margin-top: 30rpx;
+}
+.container .editSave {
+  position: absolute;
+  bottom: 200rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 60%;
+  font-size: 40rpx;
+  font-weight: bold;
+  padding-top: 8rpx;
+  padding-bottom: 8rpx;
+  border: none;
+  outline: none;
+  background-color: #95c8e3;
+  color: #fff;
+}
+

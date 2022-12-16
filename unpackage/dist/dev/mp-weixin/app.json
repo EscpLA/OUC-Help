@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/found/found",
+    "pages/lost/lost",
+    "pages/me/me"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "goods_detail/goods_detail",
+        "search/search",
+        "uploadGoods/uploadGoods",
+        "uploadSuccess/uploadSuccess",
+        "settings/settings",
+        "editProfile/editProfile",
+        "edit/edit",
+        "me-comments/me-comments",
+        "me-posts/me-posts"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "",
+    "list": [
+      {
+        "pagePath": "pages/lost/lost",
+        "text": "寻物 ",
+        "iconPath": "./static/tabBarIcon/search.png",
+        "selectedIconPath": "./static/tabBarIcon/search-active.png"
+      },
+      {
+        "pagePath": "pages/found/found",
+        "text": "招领",
+        "iconPath": "./static/tabBarIcon/shop.png",
+        "selectedIconPath": "./static/tabBarIcon/shop-active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "./static/tabBarIcon/me.png",
+        "selectedIconPath": "./static/tabBarIcon/me-active.png"
+      }
+    ]
+  },
+  "navigateToMiniProgramAppIdList": [
+    "wx8abaf00ee8c3202e"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序需要使用定位功能"
+    }
+  },
+  "usingComponents": {}
+}

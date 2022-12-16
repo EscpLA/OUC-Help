@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "招领帖子",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "filter-bar": "/components/filterBar/filterBar",
+    "uni-calendar": "/uni_modules/uni-calendar/components/uni-calendar/uni-calendar",
+    "my-search": "/components/my-search/my-search",
+    "uni-empty": "/uni_modules/uni-empty/components/o-empty/o-empty"
+  }
+}

@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.container {
+  overflow: hidden;
+  width: 247px;
+  margin: 0 auto;
+}
+.container .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 270px;
+  background-color: #e6eef2;
+  margin-top: 95px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.container .box text.top {
+  font-size: 60rpx;
+  text-align: center;
+  margin-top: 40rpx;
+}
+.container .box text.bottom {
+  height: 100rpx;
+  font-size: 40rpx;
+  color: #7d7b7b;
+  text-align: center;
+}
+.container .box text.bottom:before {
+  margin-bottom: 35px;
+  display: block;
+  content: "";
+  width: 402rpx;
+  height: 2rpx;
+  background-color: #bbb;
+}
+.container .btnBox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.container .btnBox button {
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+  border: none !important;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+.container .btnBox button::after {
+  border: none;
+}
+.container .btnBox .btn1 {
+  background-color: #add3e8;
+  color: #fff;
+}
+.container .btnBox .btn2 {
+  color: #add3e8;
+  border: 1px solid #add3e8 !important;
+}
+

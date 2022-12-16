@@ -1,0 +1,1 @@
+<view class="container"><block wx:if="{{!token}}"><my-login class="vue-ref" vue-id="8e55f700-1" data-ref="myLoginRef" bind:__l="__l"></my-login></block><block wx:else><block wx:if="{{$root.g0=='{}'}}"><me-sign-up vue-id="8e55f700-2" bind:__l="__l"></me-sign-up></block><block wx:else><me-user-info vue-id="8e55f700-3" bind:__l="__l"></me-user-info></block></block></view>

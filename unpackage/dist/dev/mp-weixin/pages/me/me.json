@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "个人页面",
+  "navigationBarBackgroundColor": "#95c8e3",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "me-user-info": "/components/me-userinfo/me-userinfo",
+    "me-sign-up": "/components/me-signUp/me-signUp",
+    "my-login": "/components/me-login/me-login"
+  }
+}

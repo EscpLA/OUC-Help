@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "iconfont";
+  /* Project id 3504360 */
+  src:
+    url('/static/iconfont.ttf') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-edit:before {
+  content: "\e7e1";
+}
+
+.icon-message:before {
+  content: "\e92a";
+}

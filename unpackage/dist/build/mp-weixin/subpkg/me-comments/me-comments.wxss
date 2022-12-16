@@ -1,0 +1,1 @@
+.curCase{color:#ee9529;border-bottom:#ee9529 solid 3px}.switchBox{font-size:40rpx;color:#9a9a9a;display:flex;justify-content:space-between;margin:20rpx auto;margin-bottom:40rpx;width:80%;transision:all .5s}.switchBox .case1{text-align:center;padding-bottom:10rpx;transition:color .5s}.switchBox .case2{text-align:center;padding-bottom:10rpx;transition:color .5s}

@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.searchBar-blue {
+  background-color: #add3e8;
+}
+.searchBar-orange {
+  background-color: #f5c66a;
+}
+.hot_con {
+  margin-top: 12px;
+}
+.hot_con .hot_title {
+  display: flex;
+  align-items: center;
+}
+.hot_con .hot_title text {
+  font-size: 17px;
+  margin-right: 5px;
+}
+.hot_con .hot_list .hot_item {
+  padding-left: 9px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 11px;
+}
+.hot_con .hot_list .hot_item .po {
+  width: 5px;
+  border-radius: 50%;
+  background-color: black;
+  height: 5px;
+  margin-right: 15px;
+}
+.history_container {
+  padding: 0 5px;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 12px;
+}
+.history_container .history_title {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  font-size: 13px;
+}
+.history_container .history_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.history_container .history_list .tag {
+  margin-top: 7px;
+  margin-right: 7px;
+  background-color: #90c7df !important;
+  color: white;
+  padding: 4px 6px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+.sugg_list {
+  padding: 0 5px;
+}
+.sugg_list .sugg_item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 13px 0;
+  border-bottom: 1px solid #efefef;
+}
+.sugg_list .sugg_item .item_name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 5px;
+  font-size: 12px;
+}
+.uni-searchbar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding: 16rpx;
+  /* 将默认的 #FFFFFF 改为 #C00000 */
+  background-color: var(--searchBarBg);
+}
+.search-box {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.goods-container {
+  height: 252rpx;
+  border-radius: 30rpx;
+  background-color: white;
+  box-shadow: 0rpx 4rpx 12rpx 0rpx rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40rpx;
+  margin-left: 16rpx;
+  margin-right: 16rpx;
+}
+.goods-container:first-of-type {
+  margin-top: 20rpx;
+}
+.goods-container .goods-info {
+  display: flex;
+}
+.goods-container .goods-info image {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 30rpx;
+  margin-left: 20rpx;
+}
+.goods-container .goods-info .goods-desc-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+.goods-container .goods-info .goods-desc-box .goods-desc {
+  font-size: 36rpx;
+  color: #000000;
+}
+

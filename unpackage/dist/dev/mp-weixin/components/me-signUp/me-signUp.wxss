@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.uniDataPicker {
+  padding-left: 10px;
+}
+.uniDataPicker text {
+  font-size: 16px !important;
+}
+.gradePicker {
+  max-width: 88px;
+}
+.majorPicker {
+  max-width: 120px;
+}
+.singUp-container {
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.singUp-container .avater {
+  width: 212rpx;
+  height: 212rpx;
+  margin-top: 86rpx;
+}
+.singUp-container .infoBox {
+  width: 680rpx;
+  background-color: #eef4f7;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 26rpx;
+}
+.singUp-container .infoBox .nameBox,
+.singUp-container .infoBox .numberBox,
+.singUp-container .infoBox .teleBox,
+.singUp-container .infoBox .gradeBox {
+  margin: 36rpx 0rpx;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.singUp-container .infoBox .nameBox .textbox,
+.singUp-container .infoBox .numberBox .textbox,
+.singUp-container .infoBox .teleBox .textbox,
+.singUp-container .infoBox .gradeBox .textbox {
+  width: 90px;
+  display: flex;
+}
+.singUp-container .infoBox .nameBox .textbox .infoText,
+.singUp-container .infoBox .numberBox .textbox .infoText,
+.singUp-container .infoBox .teleBox .textbox .infoText,
+.singUp-container .infoBox .gradeBox .textbox .infoText {
+  font-size: 36rpx;
+  margin-left: 36rpx;
+  color: #000;
+}
+.singUp-container .infoBox .nameBox input,
+.singUp-container .infoBox .numberBox input,
+.singUp-container .infoBox .teleBox input,
+.singUp-container .infoBox .gradeBox input {
+  padding-left: 15px;
+  font-size: 36rpx;
+}
+.singUp-container .infoBox .nameBox::after,
+.singUp-container .infoBox .numberBox::after,
+.singUp-container .infoBox .teleBox::after,
+.singUp-container .infoBox .gradeBox::after {
+  content: '';
+  display: block;
+  width: 604rpx;
+  height: 1px;
+  background-color: #bbb;
+  position: absolute;
+  top: 40px;
+  left: 15px;
+}
+.singUp-container .infoBox .numberBox,
+.singUp-container .infoBox .teleBox,
+.singUp-container .infoBox .gradeBox {
+  margin-top: 72rpx;
+}
+.singUp-container .infoBox .gradeBox {
+  display: flex;
+}
+.singUp-container .infoBox .gradeBox .infoText {
+  font-size: 36rpx;
+  color: #000;
+}
+.singUp-container .infoBox .gradeBox .input-1 {
+  flex: 0.3;
+}
+.singUp-container .infoBox .gradeBox .input-2 {
+  flex: 0.5;
+}
+.singUp-container .infoBox .teleBox::after {
+  display: none;
+}
+.singUp-container .button {
+  width: 254rpx;
+  height: 68rpx;
+  background-color: #f5c66a;
+  line-height: 68rpx;
+  margin-top: 56rpx;
+  font-weight: bold;
+}
+

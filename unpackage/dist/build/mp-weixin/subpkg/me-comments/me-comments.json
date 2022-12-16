@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的评论",
+  "navigationBarBackgroundColor": "#e1edf4",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "me-comments-component": "/components/me-comments-component/me-comments-component",
+    "me-comments-skeleton": "/components/me-comments-skeleton/me-comments-skeleton"
+  }
+}

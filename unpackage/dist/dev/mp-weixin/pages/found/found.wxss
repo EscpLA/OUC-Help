@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.search-box {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1500;
+  transition: all 0.5s;
+  padding-top: 10px;
+}
+.firstActive {
+  background-color: #fff !important;
+  font-weight: bold;
+  color: #4095e5;
+}
+.secondActive {
+  font-weight: bold;
+  color: #000 !important;
+}
+.even {
+  color: #4095e5;
+  background-color: #d9eafa;
+}
+.odd {
+  background-color: #f2d6d3;
+  color: #de868f;
+}
+.container {
+  width: 740rpx;
+  margin-top: 40rpx;
+}
+.container .mid-content-container {
+  display: flex;
+}
+.container .mid-content-container .left {
+  z-index: 999;
+}
+.container .mid-content-container .left .cat-container {
+  width: 212rpx;
+  background-color: #f7f8fa;
+}
+.container .mid-content-container .left .cat-container .cat-item {
+  color: #000;
+}
+.container .mid-content-container .left .cat-container .cat-item .first-nav-item {
+  display: flex;
+  font-size: 32rpx !important;
+  padding-top: 26rpx;
+  padding-bottom: 26rpx;
+  padding-left: 14rpx;
+  transition: all 0.5s;
+}
+.container .mid-content-container .left .cat-container .cat-item .first-nav-item .iconfont {
+  font-size: 40rpx !important;
+  margin-right: 14rpx;
+}
+.container .mid-content-container .left .cat-container .cat-item .second-nav-item {
+  font-size: 34rpx;
+  text-align: center;
+  padding: 30rpx 0rpx;
+  transition: all 0.5s;
+}
+.container .mid-content-container .right .goods-container {
+  height: 252rpx;
+  border-radius: 30rpx;
+  background-color: white;
+  box-shadow: 0rpx 4rpx 12rpx 0rpx rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 40rpx;
+  margin-left: 16rpx;
+  margin-right: 16rpx;
+}
+.container .mid-content-container .right .goods-container:first-of-type {
+  margin-top: 20rpx;
+}
+.container .mid-content-container .right .goods-container .goods-info {
+  display: flex;
+}
+.container .mid-content-container .right .goods-container .goods-info image {
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 30rpx;
+  margin-left: 10rpx;
+}
+.container .mid-content-container .right .goods-container .goods-info .goods-desc-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
+.container .mid-content-container .right .goods-container .goods-info .goods-desc-box .goods-desc {
+  font-size: 36rpx;
+  color: #000000;
+}
+
